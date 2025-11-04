@@ -1,0 +1,6 @@
+Filling the boat with critical supplies...
+Took full Food (10.00 kg) → Value: 120.00
+Took full Medicine (20.00 kg) → Value: 150.00
+Took 20.00 kg of Water (fractional) → Value: 140.00
+
+ Total utility value carried: 410.0

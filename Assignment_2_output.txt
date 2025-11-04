@@ -1,0 +1,7 @@
+Sort by (rating/year/watchtime): year
+
+Sorted by year:
+The Dark Knight | Rating: 9.0 | Year: 2008 | WatchTime: 152
+Inception | Rating: 8.8 | Year: 2010 | WatchTime: 150
+Interstellar | Rating: 8.6 | Year: 2014 | WatchTime: 165
+Avengers: Endgame | Rating: 8.4 | Year: 2019 | WatchTime: 180
