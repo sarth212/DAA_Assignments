@@ -58,7 +58,7 @@ public class Assignment_3 {
                 System.out.printf("Took %.2f kg of %s (fractional) → Value: %.2f%n",
                         remaining, item.name, valueTaken);
                 currentWeight = capacity;
-                break; // Boat full
+                break; 
             }
         }
         System.out.println("\n Total utility value carried: " + totalValue);
@@ -76,4 +76,5 @@ public class Assignment_3 {
     }
 
 }
+
 
