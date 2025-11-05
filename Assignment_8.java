@@ -107,7 +107,7 @@ public class Assignment8 {
             for (int i = 0; i < route.size() - 1; i++) {
                 totalTime += distanceMatrix[route.get(i)][route.get(i + 1)];
             }
-            if (!route.isEmpty()) totalTime += distanceMatrix[route.get(route.size() - 1)][0]; // return to start
+            if (!route.isEmpty()) totalTime += distanceMatrix[route.get(route.size() - 1)][0];
             return totalTime;
         }
 
@@ -154,3 +154,4 @@ public class Assignment8 {
     }
 
 }
+
