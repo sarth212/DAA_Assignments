@@ -89,10 +89,10 @@ public class Assignment_5 {
 
     public static List<Integer> getNodesInStage(int stage) {
         Map<Integer, List<Integer>> stageMap = new HashMap<>();
-        stageMap.put(1, Arrays.asList(1));         // Source stage
-        stageMap.put(2, Arrays.asList(2, 3));      // Transit hubs
-        stageMap.put(3, Arrays.asList(4, 5));      // Warehouses
-        stageMap.put(4, Arrays.asList(6));         // Destination stage
+        stageMap.put(1, Arrays.asList(1));         
+        stageMap.put(2, Arrays.asList(2, 3));      
+        stageMap.put(3, Arrays.asList(4, 5));      
+        stageMap.put(4, Arrays.asList(6));        
         return stageMap.getOrDefault(stage, new ArrayList<>());
     }
 
@@ -122,4 +122,5 @@ public class Assignment_5 {
         System.out.printf("\nTotal Minimum Delivery Cost/Time: %.2f\n", minCost.get(source));
     }
 }
+
 
